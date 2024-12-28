@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'sans': ['"Segoe UI"', 'Tahoma', 'sans-serif'],
+        'roboto-arial': ['Roboto', 'Arial', 'sans-serif'],
+      },
+
     },
   },
   plugins: [],

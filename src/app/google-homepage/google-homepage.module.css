@@ -1,0 +1,99 @@
+/* src/app/google-homepage/google-homepage.module.css */
+
+.google-homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.header-left a,
+.header-right a {
+  text-decoration: none;
+  color: #5f6368;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.header-left a:hover,
+.header-right a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section Styles */
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  width: 500px;
+  height: 40px;
+  border-radius: 24px;
+  border: 1px solid #dcdcdc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border: 1px solid #4285f4;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  background-color: #f8f8f8;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px;
+  background-color: #f8f8f8;
+}
+
+.footer-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
